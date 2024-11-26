@@ -10,7 +10,7 @@
 ## Resultados obtidos:
 ### Executando sem alterar os parâmetros:
 #### Resultados:
-| Threads | Tempo em ms | Ganho em relação ao singlethread |
+| Threads | Tempo em ms | Speedup      |
 |---------|-------------|--------------|
 | 1       | 4069        | 0            |
 | 2       | 1735        | 2.345244957  |
@@ -23,9 +23,9 @@
 #### Gráfico:
 ![gráfico dos tempos de execução](grafico1.png)
 
-### Executando alterando interações para 3k:
+### Executando com 3k interações:
 #### Resultados:
-| Threads | Tempo em ms | Ganho        |
+| Threads | Tempo em ms | Speedup      |
 |---------|-------------|--------------|
 | 1       | 11868       | 0            |
 | 2       | 5111        | 2.322050479  |
