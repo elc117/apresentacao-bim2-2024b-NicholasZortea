@@ -5,6 +5,7 @@
 
 ## Mudanças realizadas no código:
 - Mudança simples do código main para facilitar a geração de uma média do tempo de execução gasto para gerar uma imagem, tanto para single como para multi-thread.
+![gif da mudança](gif.gif)
 
 ## Resultados obtidos:
 ### Executando sem alterar os parâmetros:
