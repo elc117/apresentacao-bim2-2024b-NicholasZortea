@@ -44,19 +44,21 @@ Está no conjunto<br>
 
 ### Executando com 3k interações:
 #### Resultados:
-| Threads | Tempo em ms | Speedup      |
-|---------|-------------|--------------|
-| 1       | 11868       | 0            |
-| 2       | 5111        | 2.322050479  |
-| 3       | 5060        | 2.345454545  |
-| 4       | 3320        | 3.574698795  |
-| 5       | 3108        | 3.818532819  |
-| 6       | 2510        | 4.728286853  |
-| 7       | 2288        | 5.187062937  |
-| 8       | 1995        | 5.94887218   |
+| Threads | Tempo em ms | Speedup      | Speedup por Thread |
+|---------|-------------|--------------|---------------------|
+| 1       | 11868       | 0.000000     | 0.000000           |
+| 2       | 5111        | 2.322050479  | 1.161025           |
+| 3       | 5060        | 2.345454545  | 0.781818           |
+| 4       | 3320        | 3.574698795  | 0.893675           |
+| 5       | 3108        | 3.818532819  | 0.763706           |
+| 6       | 2510        | 4.728286853  | 0.788048           |
+| 7       | 2288        | 5.187062937  | 0.741009           |
+| 8       | 1995        | 5.94887218   | 0.743609           |
+
 
 #### Gráfico:
 ![gráfico dos tempos de execução](grafico2.png)
+![gráfico de speed up por thread](speedup_por_thread.png)
 
 ## Referências:
 [Sounds of the Madelbrot Set](https://www.youtube.com/watch?v=GiAj9WW1OfQ&t=354s)<br>
