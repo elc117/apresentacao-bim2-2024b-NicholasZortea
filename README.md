@@ -1,4 +1,5 @@
-# Mandelbrot
+# Conjunto de Mandelbrot
+![Imagem da representação do conjunto do Mandelbrot](mandelbrot_multi_thread.png)
 ## Números complexos:
 ![Numeros complexos](complexNumbers.png)
 
