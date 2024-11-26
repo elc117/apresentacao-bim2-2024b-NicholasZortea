@@ -1,5 +1,23 @@
 # Mandelbrot
+## Números complexos:
+![Numeros complexos](complexNumbers.png)
 
+## Fórmula Mandelbrot
+![Formula](formula.png)
+
+### Exemplo:
+Z0 = 0;
+z1 = (Z0)^2 + 1 = 1;
+z2 = (z1)^2 + 1 = 2;
+z3 = (z2)^2 + 1 = 5;
+z4 = (z3)^2 + 1 = 26
+Não está no conjunto
+
+Z0 = 0;
+z1 = (Z0)^2 - 1 = - 1;
+z2 = (Z1)^2 - 1 = 0;
+z3 = (Z2)^2 - 1 = - 1;
+Está no conjunto
 ## Configurações do processador:
 12th Gen Intel(R) Core(TM) i5-12500H 3.10 GHz - 12 núcleos
 
@@ -38,3 +56,7 @@
 
 #### Gráfico:
 ![gráfico dos tempos de execução](grafico2.png)
+
+## Referências:
+[Sounds of the Madelbrot Set](https://www.youtube.com/watch?v=GiAj9WW1OfQ&t=354s)
+[What's so special about the Mandelbrot Set? - Numberphile](https://www.youtube.com/watch?v=FFftmWSzgmk)
